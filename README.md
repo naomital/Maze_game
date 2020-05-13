@@ -8,7 +8,16 @@ https://michaly.itch.io/the-maze
 *What does the game include?*
 --
 - Maze - which does not allow you to pass through walls and you must identify the correct route to exit.
-- Player - wich can be moved by using the arrow keys.
+- Player - which can be moved by using the arrow keys. 
 - Mushrooms - if you touch them you will die and the game will over.
 - Animations - of the actor going and of his death.
 - UI - End of game and button to start the game again.
+
+The animations: 
+https://github.com/naomital/Maze_game/tree/master/maze/Assets/animation
+idle - Character animation, when standing and not moving
+walk - Character animation, when walking around by using the keyboard keys
+
+scripts:
+https://github.com/naomital/Maze_game/tree/master/maze/Assets/Scripts
+KeyboardMover.cs - Movement of the character by using keys.Affects the transition between the various animations.
