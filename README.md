@@ -13,6 +13,8 @@ https://michaly.itch.io/the-maze
 - Animations - of the actor going and of his death.
 - UI - End of game and button to start the game again.
 
+--
+
 The animations: 
 https://github.com/naomital/Maze_game/tree/master/maze/Assets/animation
 idle - Character animation, when standing and not moving
