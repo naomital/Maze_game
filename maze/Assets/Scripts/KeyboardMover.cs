@@ -9,7 +9,11 @@ using UnityEngine;
 public class KeyboardMover: MonoBehaviour {
     [Tooltip("Speed of movement, in meters per second")]
     [SerializeField] float speed = 1f;
-
+    Animator animator;
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
     void Update() {
         float horizontal = Input.GetAxis("Horizontal"); // +1 if right arrow is pushed, -1 if left arrow is pushed, 0 otherwise
         float vertical = Input.GetAxis("Vertical");     // +1 if up arrow is pushed, -1 if down arrow is pushed, 0 otherwise
