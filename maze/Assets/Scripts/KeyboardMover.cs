@@ -18,7 +18,7 @@ public class KeyboardMover: MonoBehaviour {
 
         if (Input.GetKey(KeyCode.RightArrow))
         {
-
+            transform.localScale = new Vector3(0.6f,0.55f,1);
             transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
             animator.SetBool("isWalking", true);
             
@@ -27,6 +27,7 @@ public class KeyboardMover: MonoBehaviour {
         else if (Input.GetKey(KeyCode.LeftArrow))
         {
 
+            transform.localScale = new Vector3(-0.6f,0.55f,1);
             transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
             animator.SetBool("isWalking", true);
 
