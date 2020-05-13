@@ -469,7 +469,7 @@ PrefabInstance:
     - target: {fileID: 4420205464127671959, guid: edb2c023d7a56444ca1983e9da27dba0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.522
+      value: 0.51
       objectReference: {fileID: 0}
     - target: {fileID: 4420205464127671959, guid: edb2c023d7a56444ca1983e9da27dba0,
         type: 3}
@@ -1301,7 +1301,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.07413947, g: 0.46226418, b: 0.04579032, a: 0}
+  m_BackGroundColor: {r: 0.28257388, g: 0.4716981, b: 0.29583433, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1938,7 +1938,7 @@ PrefabInstance:
     - target: {fileID: 1297483261681837555, guid: cc0800161a6c0014dac4c108b36c62ae,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.476
+      value: 0.459
       objectReference: {fileID: 0}
     - target: {fileID: 1297483261681837555, guid: cc0800161a6c0014dac4c108b36c62ae,
         type: 3}
@@ -1993,7 +1993,7 @@ PrefabInstance:
     - target: {fileID: 1297483261681837555, guid: cc0800161a6c0014dac4c108b36c62ae,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 4.1963525
+      value: 4.230266
       objectReference: {fileID: 0}
     - target: {fileID: 1297483261681837555, guid: cc0800161a6c0014dac4c108b36c62ae,
         type: 3}
@@ -4666,7 +4666,7 @@ PrefabInstance:
     - target: {fileID: 4420205464127671959, guid: edb2c023d7a56444ca1983e9da27dba0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.129303
+      value: 1.1187
       objectReference: {fileID: 0}
     - target: {fileID: 4420205464127671959, guid: edb2c023d7a56444ca1983e9da27dba0,
         type: 3}
@@ -4712,6 +4712,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420205464127671959, guid: edb2c023d7a56444ca1983e9da27dba0,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.0237515
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edb2c023d7a56444ca1983e9da27dba0, type: 3}
