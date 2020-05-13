@@ -17,9 +17,9 @@ https://michaly.itch.io/the-maze
 
 The animations: 
 https://github.com/naomital/Maze_game/tree/master/maze/Assets/animation
-idle - Character animation, when standing and not moving
-walk - Character animation, when walking around by using the keyboard keys
+- idle - Character animation, when standing and not moving
+- walk - Character animation, when walking around by using the keyboard keys
 
 scripts:
 https://github.com/naomital/Maze_game/tree/master/maze/Assets/Scripts
-KeyboardMover.cs - Movement of the character by using keys.Affects the transition between the various animations.
+- KeyboardMover.cs - Movement of the character by using keys.Affects the transition between the various animations.
